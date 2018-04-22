@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACA3DDCD4D3BAA5F3F68E51 /* Pods_CEOlife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7E07DC2F24672A19D95936 /* Pods_CEOlife.framework */; };
+		71D7E52A208A71F7002B716C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E529208A71F7002B716C /* AppDelegate.swift */; };
+		71D7E52C208A71F7002B716C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E52B208A71F7002B716C /* ViewController.swift */; };
+		71D7E52F208A71F7002B716C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E52D208A71F7002B716C /* Main.storyboard */; };
+		71D7E532208A71F7002B716C /* CEOlife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E530208A71F7002B716C /* CEOlife.xcdatamodeld */; };
+		71D7E534208A71FA002B716C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E533208A71FA002B716C /* Assets.xcassets */; };
+		71D7E537208A71FA002B716C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E535208A71FA002B716C /* LaunchScreen.storyboard */; };
+		71D7E53F208A775E002B716C /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E53E208A775E002B716C /* Perfil.swift */; };
+		71D7E541208A7DFF002B716C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E540208A7DFF002B716C /* GoogleService-Info.plist */; };
+		71D7E546208C200B002B716C /* Catalogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E545208C200B002B716C /* Catalogo.swift */; };
+		71D7E547208C3B15002B716C /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E542208C154C002B716C /* SF-Pro-Display-Regular.otf */; };
+		71D7E548208C3B17002B716C /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E544208C15C0002B716C /* SF-Pro-Display-Ultralight.otf */; };
+		71D7E549208C3B1C002B716C /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E543208C156E002B716C /* SF-Pro-Text-Bold.otf */; };
+		71D7E54B208C6B78002B716C /* swipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E54A208C6B78002B716C /* swipingController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FBCE960840BE299BC5FCC13 /* Pods-CEOlife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEOlife.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife.release.xcconfig"; sourceTree = "<group>"; };
+		71D7E526208A71F7002B716C /* CEOlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEOlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D7E529208A71F7002B716C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71D7E52B208A71F7002B716C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71D7E52E208A71F7002B716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71D7E531208A71F7002B716C /* CEOlife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CEOlife.xcdatamodel; sourceTree = "<group>"; };
+		71D7E533208A71FA002B716C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71D7E536208A71FA002B716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71D7E538208A71FA002B716C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D7E53E208A775E002B716C /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
+		71D7E540208A7DFF002B716C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71D7E542208C154C002B716C /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		71D7E543208C156E002B716C /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		71D7E544208C15C0002B716C /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		71D7E545208C200B002B716C /* Catalogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalogo.swift; sourceTree = "<group>"; };
+		71D7E54A208C6B78002B716C /* swipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipingController.swift; sourceTree = "<group>"; };
+		B5F5AB2424F7DDDADFE5BEC9 /* Pods-CEOlife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEOlife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7E07DC2F24672A19D95936 /* Pods_CEOlife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEOlife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D7E523208A71F7002B716C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACA3DDCD4D3BAA5F3F68E51 /* Pods_CEOlife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14513C9EE0215338D2A175DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F5AB2424F7DDDADFE5BEC9 /* Pods-CEOlife.debug.xcconfig */,
+				5FBCE960840BE299BC5FCC13 /* Pods-CEOlife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A456FA715B92A39E4992685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7E07DC2F24672A19D95936 /* Pods_CEOlife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71D7E51D208A71F7002B716C = {
+			isa = PBXGroup;
+			children = (
+				71D7E528208A71F7002B716C /* CEOlife */,
+				71D7E527208A71F7002B716C /* Products */,
+				14513C9EE0215338D2A175DE /* Pods */,
+				6A456FA715B92A39E4992685 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71D7E527208A71F7002B716C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D7E526208A71F7002B716C /* CEOlife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D7E528208A71F7002B716C /* CEOlife */ = {
+			isa = PBXGroup;
+			children = (
+				71D7E529208A71F7002B716C /* AppDelegate.swift */,
+				71D7E53E208A775E002B716C /* Perfil.swift */,
+				71D7E52B208A71F7002B716C /* ViewController.swift */,
+				71D7E540208A7DFF002B716C /* GoogleService-Info.plist */,
+				71D7E52D208A71F7002B716C /* Main.storyboard */,
+				71D7E533208A71FA002B716C /* Assets.xcassets */,
+				71D7E535208A71FA002B716C /* LaunchScreen.storyboard */,
+				71D7E543208C156E002B716C /* SF-Pro-Text-Bold.otf */,
+				71D7E544208C15C0002B716C /* SF-Pro-Display-Ultralight.otf */,
+				71D7E542208C154C002B716C /* SF-Pro-Display-Regular.otf */,
+				71D7E538208A71FA002B716C /* Info.plist */,
+				71D7E530208A71F7002B716C /* CEOlife.xcdatamodeld */,
+				71D7E545208C200B002B716C /* Catalogo.swift */,
+				71D7E54A208C6B78002B716C /* swipingController.swift */,
+			);
+			path = CEOlife;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D7E525208A71F7002B716C /* CEOlife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D7E53B208A71FA002B716C /* Build configuration list for PBXNativeTarget "CEOlife" */;
+			buildPhases = (
+				472DA39A6D406E7FF2F26A4B /* [CP] Check Pods Manifest.lock */,
+				71D7E522208A71F7002B716C /* Sources */,
+				71D7E523208A71F7002B716C /* Frameworks */,
+				71D7E524208A71F7002B716C /* Resources */,
+				794F0206F894754E96A2EA05 /* [CP] Embed Pods Frameworks */,
+				D79E6B8492645B09AB4FC334 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEOlife;
+			productName = CEOlife;
+			productReference = 71D7E526208A71F7002B716C /* CEOlife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71D7E51E208A71F7002B716C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Ricardo;
+				TargetAttributes = {
+					71D7E525208A71F7002B716C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 71D7E521208A71F7002B716C /* Build configuration list for PBXProject "CEOlife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71D7E51D208A71F7002B716C;
+			productRefGroup = 71D7E527208A71F7002B716C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D7E525208A71F7002B716C /* CEOlife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D7E524208A71F7002B716C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D7E537208A71FA002B716C /* LaunchScreen.storyboard in Resources */,
+				71D7E549208C3B1C002B716C /* SF-Pro-Text-Bold.otf in Resources */,
+				71D7E541208A7DFF002B716C /* GoogleService-Info.plist in Resources */,
+				71D7E534208A71FA002B716C /* Assets.xcassets in Resources */,
+				71D7E548208C3B17002B716C /* SF-Pro-Display-Ultralight.otf in Resources */,
+				71D7E547208C3B15002B716C /* SF-Pro-Display-Regular.otf in Resources */,
+				71D7E52F208A71F7002B716C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		472DA39A6D406E7FF2F26A4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CEOlife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794F0206F894754E96A2EA05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79E6B8492645B09AB4FC334 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71D7E522208A71F7002B716C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D7E52C208A71F7002B716C /* ViewController.swift in Sources */,
+				71D7E54B208C6B78002B716C /* swipingController.swift in Sources */,
+				71D7E546208C200B002B716C /* Catalogo.swift in Sources */,
+				71D7E53F208A775E002B716C /* Perfil.swift in Sources */,
+				71D7E52A208A71F7002B716C /* AppDelegate.swift in Sources */,
+				71D7E532208A71F7002B716C /* CEOlife.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71D7E52D208A71F7002B716C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71D7E52E208A71F7002B716C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71D7E535208A71FA002B716C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71D7E536208A71FA002B716C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71D7E539208A71FA002B716C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71D7E53A208A71FA002B716C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71D7E53C208A71FA002B716C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F5AB2424F7DDDADFE5BEC9 /* Pods-CEOlife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYQR9G9T5T;
+				INFOPLIST_FILE = CEOlife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A01066515.CEOlife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71D7E53D208A71FA002B716C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBCE960840BE299BC5FCC13 /* Pods-CEOlife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYQR9G9T5T;
+				INFOPLIST_FILE = CEOlife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A01066515.CEOlife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71D7E521208A71F7002B716C /* Build configuration list for PBXProject "CEOlife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D7E539208A71FA002B716C /* Debug */,
+				71D7E53A208A71FA002B716C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D7E53B208A71FA002B716C /* Build configuration list for PBXNativeTarget "CEOlife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D7E53C208A71FA002B716C /* Debug */,
+				71D7E53D208A71FA002B716C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71D7E530208A71F7002B716C /* CEOlife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71D7E531208A71F7002B716C /* CEOlife.xcdatamodel */,
+			);
+			currentVersion = 71D7E531208A71F7002B716C /* CEOlife.xcdatamodel */;
+			path = CEOlife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71D7E51E208A71F7002B716C /* Project object */;
+}
