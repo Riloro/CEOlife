@@ -21,6 +21,8 @@
 		71D7E548208C3B17002B716C /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E544208C15C0002B716C /* SF-Pro-Display-Ultralight.otf */; };
 		71D7E549208C3B1C002B716C /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71D7E543208C156E002B716C /* SF-Pro-Text-Bold.otf */; };
 		71D7E54B208C6B78002B716C /* swipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E54A208C6B78002B716C /* swipingController.swift */; };
+		71D7E551208D02DC002B716C /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E550208D02DC002B716C /* PageCell.swift */; };
+		71D7E555208D1A98002B716C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E554208D1A98002B716C /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		71D7E544208C15C0002B716C /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
 		71D7E545208C200B002B716C /* Catalogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalogo.swift; sourceTree = "<group>"; };
 		71D7E54A208C6B78002B716C /* swipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipingController.swift; sourceTree = "<group>"; };
+		71D7E550208D02DC002B716C /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		71D7E554208D1A98002B716C /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		B5F5AB2424F7DDDADFE5BEC9 /* Pods-CEOlife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEOlife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife.debug.xcconfig"; sourceTree = "<group>"; };
 		DC7E07DC2F24672A19D95936 /* Pods_CEOlife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEOlife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,6 +112,8 @@
 				71D7E530208A71F7002B716C /* CEOlife.xcdatamodeld */,
 				71D7E545208C200B002B716C /* Catalogo.swift */,
 				71D7E54A208C6B78002B716C /* swipingController.swift */,
+				71D7E550208D02DC002B716C /* PageCell.swift */,
+				71D7E554208D1A98002B716C /* Page.swift */,
 			);
 			path = CEOlife;
 			sourceTree = "<group>";
@@ -250,10 +256,12 @@
 			files = (
 				71D7E52C208A71F7002B716C /* ViewController.swift in Sources */,
 				71D7E54B208C6B78002B716C /* swipingController.swift in Sources */,
+				71D7E555208D1A98002B716C /* Page.swift in Sources */,
 				71D7E546208C200B002B716C /* Catalogo.swift in Sources */,
 				71D7E53F208A775E002B716C /* Perfil.swift in Sources */,
 				71D7E52A208A71F7002B716C /* AppDelegate.swift in Sources */,
 				71D7E532208A71F7002B716C /* CEOlife.xcdatamodeld in Sources */,
+				71D7E551208D02DC002B716C /* PageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

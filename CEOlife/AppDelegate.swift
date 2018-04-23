@@ -15,19 +15,18 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var verdadero = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        // Override point for customization after application launch.
-        window = UIWindow()
-        window?.makeKeyAndVisible()
         
-        let randomViewController = UIViewController()
-        randomViewController.view.backgroundColor = .purple
-//        window?.rootViewController = randomViewController
+        if verdadero == true
+        {
+        // this is how we buil our app in code
+      
         
-        
+
+        }
         
         return true
     }

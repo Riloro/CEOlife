@@ -14,7 +14,7 @@ extension UIColor {
 }
 
 class Catalogo: UIViewController {
-    
+  
     
     let techImageView = { () -> UIImageView in
         let imageView = UIImageView(image: #imageLiteral(resourceName: "tech"))
@@ -123,6 +123,7 @@ class Catalogo: UIViewController {
        
     
     }
+    
     private func setupLayout(){
         techImageView.centerXAnchor.constraint(equalTo:
             view.centerXAnchor).isActive = true

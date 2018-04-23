@@ -11,6 +11,7 @@ import FirebaseDatabase
 
 class Perfil: UIViewController, UITableViewDelegate, UITableViewDataSource{
     var arr = ["Nombre:", "Edad:", "Sexo:", "Profesión:", "Altura:", "Peso:", "País:"]
+     var appDelegate = UIApplication.shared.delegate as? AppDelegate
     
     var nombreS:String = ""
     var edadS:String = ""
@@ -91,6 +92,20 @@ class Perfil: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     override func viewWillAppear(_ animated: Bool) {
         
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        appDelegate?.verdadero = true
+        appDelegate?.window = UIWindow()
+        appDelegate?.window?.makeKeyAndVisible()
+        
+        //        let randomViewController = UIViewController()
+        //        randomViewController.view.backgroundColor = .purple
+        
+        
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let swipingController = SwipingController(collectionViewLayout: layout)
+        appDelegate?.window?.rootViewController = swipingController
     }
 
     override func didReceiveMemoryWarning() {
