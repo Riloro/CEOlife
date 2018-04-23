@@ -23,6 +23,7 @@
 		71D7E54B208C6B78002B716C /* swipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E54A208C6B78002B716C /* swipingController.swift */; };
 		71D7E551208D02DC002B716C /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E550208D02DC002B716C /* PageCell.swift */; };
 		71D7E555208D1A98002B716C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E554208D1A98002B716C /* Page.swift */; };
+		71D7E559208E8FBC002B716C /* Equipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7E558208E8FBC002B716C /* Equipo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		71D7E54A208C6B78002B716C /* swipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipingController.swift; sourceTree = "<group>"; };
 		71D7E550208D02DC002B716C /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		71D7E554208D1A98002B716C /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		71D7E558208E8FBC002B716C /* Equipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipo.swift; sourceTree = "<group>"; };
 		B5F5AB2424F7DDDADFE5BEC9 /* Pods-CEOlife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEOlife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEOlife/Pods-CEOlife.debug.xcconfig"; sourceTree = "<group>"; };
 		DC7E07DC2F24672A19D95936 /* Pods_CEOlife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEOlife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				71D7E529208A71F7002B716C /* AppDelegate.swift */,
 				71D7E53E208A775E002B716C /* Perfil.swift */,
 				71D7E52B208A71F7002B716C /* ViewController.swift */,
+				71D7E558208E8FBC002B716C /* Equipo.swift */,
 				71D7E540208A7DFF002B716C /* GoogleService-Info.plist */,
 				71D7E52D208A71F7002B716C /* Main.storyboard */,
 				71D7E533208A71FA002B716C /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 				71D7E555208D1A98002B716C /* Page.swift in Sources */,
 				71D7E546208C200B002B716C /* Catalogo.swift in Sources */,
 				71D7E53F208A775E002B716C /* Perfil.swift in Sources */,
+				71D7E559208E8FBC002B716C /* Equipo.swift in Sources */,
 				71D7E52A208A71F7002B716C /* AppDelegate.swift in Sources */,
 				71D7E532208A71F7002B716C /* CEOlife.xcdatamodeld in Sources */,
 				71D7E551208D02DC002B716C /* PageCell.swift in Sources */,

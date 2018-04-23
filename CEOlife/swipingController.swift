@@ -10,7 +10,7 @@ import UIKit
 
 
 class SwipingController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
-    
+    var appDelegate = UIApplication.shared.delegate as? AppDelegate
     let pages = [
         Page(imageName: "procesador", headerText: "StartUp de tecnología", bodyText: "Fundarás una startUp que se enfocará en el desarrollo de hardware para el sistema electrónico de autos, aviones y helicópteros.")
         ,Page(imageName: "panel", headerText: "StartUp de tecnología", bodyText: "Fundarás una startUp que se enfocará en el desarrollo de metodos limpios para la generacoón de energía eléctrica."),
@@ -38,8 +38,21 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
         
         
     }()
+   
+    
     @objc private func handleContinuar (){
         print("Presionando Continuar")
+         appDelegate?.window?.removeFromSuperview()
+        let viewController: UIViewController = UIStoryboard(
+            name: "Main", bundle: nil
+            ).instantiateViewController(withIdentifier: "Equipo") as! Equipo
+        // .instantiatViewControllerWithIdentifier() returns AnyObject!
+        // this must be downcast to utilize it
+        
+        self.present(viewController, animated: false, completion: nil)
+        
+       
+       
        
     }
     

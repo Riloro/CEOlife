@@ -94,7 +94,8 @@ class Perfil: UIViewController, UITableViewDelegate, UITableViewDataSource{
         
     }
     override func viewWillDisappear(_ animated: Bool) {
-        appDelegate?.verdadero = true
+        
+        
         appDelegate?.window = UIWindow()
         appDelegate?.window?.makeKeyAndVisible()
         
@@ -106,6 +107,8 @@ class Perfil: UIViewController, UITableViewDelegate, UITableViewDataSource{
         layout.scrollDirection = .horizontal
         let swipingController = SwipingController(collectionViewLayout: layout)
         appDelegate?.window?.rootViewController = swipingController
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
